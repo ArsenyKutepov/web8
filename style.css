@@ -1,0 +1,66 @@
+body{
+    background-color: rgba(109, 98, 93, 1.0);
+    align-content: center;
+}
+.popWindow h2{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+a{
+    background-color: rgb(119, 22, 8);
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.close-btn{
+    float:right;
+    font-size: 40px;
+    line-height: 20px;
+    cursor: pointer;
+    color: rgb(208, 0, 0);
+    padding: 10px;
+}
+.form-text{
+    text-align:center;
+    position:relative;
+}
+.thank-you-window{
+    margin: auto;
+    display: none;
+    padding: 5px;
+    height: 100px;
+    width: 320px;
+    box-shadow: 0 0 30px rgba(243, 241, 231, 0.5);
+    background-color: rgb(234, 243, 233);
+}
+.thanks{
+    font-size: 25px;
+}
+.popup-main-window{
+    width: 360px;
+}
+.popup-overlay{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(109, 98, 112, 1.0);
+    z-index: 100;
+}
+.popWindow{
+    color: white;
+    display: none;
+    margin: auto;
+    max-width: 720px;
+    padding-bottom: 20px;
+    top:50%;
+    left:50%;
+    box-shadow: 0 0 30px rgba(241, 241, 239, 0.5);
+    background-color: rgb(119, 22, 8);
+}
